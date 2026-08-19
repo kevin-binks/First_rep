@@ -22,8 +22,8 @@ nav a {
 }
 
 .hero {
-  background: #0055aa;
-  color: white;
+  background: white;
+  color: black;
   padding: 4em 2em;
   text-align: center;
 }
