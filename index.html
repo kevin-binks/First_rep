@@ -1,50 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Exeter IT | Professional IT Services</title>
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>Exeter IT | Professional IT Services</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Professional baseline styling -->
+    <style>
+        body {
+            margin: 0;
+            font-family: system-ui, -apple-system, sans-serif;
+            color: #1B2A4A;
+            background: #F5F2EE;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 20px 40px;
+            background: white;
+            border-bottom: 1px solid #ddd;
+        }
+
+        header h1 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+
+        header svg {
+            height: 80px; /* Reduced from 420px → professional scale */
+            width: auto;
+        }
+
+        nav a {
+            margin-left: 25px;
+            text-decoration: none;
+            font-weight: 600;
+            color: #1B2A4A;
+            transition: 0.2s;
+        }
+
+        nav a:hover {
+            color: #D4872A;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 120px 40px;
+            background: linear-gradient(to bottom, #ffffff, #f0ece7);
+        }
+
+        .hero h2 {
+            font-size: 2.4rem;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            color: #444;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #1B2A4A;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #D4872A;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            color: #555;
+        }
+    </style>
 </head>
+
 <body>
+
 <header>
-  <h1>
-    <svg viewBox="0 0 240 480" width="480" height="420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Exeter IT Services logo">
+    <h1>
+        <!-- Your original SVG logo (scaled professionally) -->
+        <!-- Source: index.html tab content  -->
+        <svg viewBox="0 0 240 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Exeter IT Services logo">
+            <rect width="240" height="240" fill="#F5F2EE" />
+            <rect x="152" y="144" width="30" height="192" rx="15" fill="#1B2A4A" />
+            <rect x="152" y="144" width="108" height="30" rx="15" fill="#1B2A4A" />
+            <rect x="152" y="225" width="90" height="30" rx="15" fill="#1B2A4A" />
+            <rect x="152" y="306" width="108" height="30" rx="15" fill="#1B2A4A" />
+            <circle cx="275" cy="159" r="14" fill="#D4872A" />
+            <circle cx="257" cy="240" r="14" fill="#D4872A" />
+            <circle cx="275" cy="321" r="14" fill="#D4872A" />
+            <text x="240" y="390" text-anchor="middle" font-weight="700" font-size="21" letter-spacing="7" fill="#1B2A4A">EXETER IT</text>
+            <text x="240" y="413" text-anchor="middle" font-weight="400" font-size="12" letter-spacing="5" fill="#D4872A">SERVICES</text>
+        </svg>
+    </h1>
 
-  <rect width="240" height="240" fill="#F5F2EE" />
-
-  <!-- E mark -->
-  <rect x="152" y="144" width="30" height="192" rx="15" fill="#1B2A4A" />
-  <rect x="152" y="144" width="108" height="30" rx="15" fill="#1B2A4A" />
-  <rect x="152" y="225" width="90"  height="30" rx="15" fill="#1B2A4A" />
-  <rect x="152" y="306" width="108" height="30" rx="15" fill="#1B2A4A" />
-
-  <!-- Amber dots -->
-  <circle cx="275" cy="159" r="14" fill="#D4872A" />
-  <circle cx="257" cy="240" r="14" fill="#D4872A" />
-  <circle cx="275" cy="321" r="14" fill="#D4872A" />
-
-  <!-- Wordmark -->
-  <text x="240" y="390" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="21" letter-spacing="7" fill="#1B2A4A">EXETER IT</text>
-  <text x="240" y="413" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-weight="400" font-size="12" letter-spacing="5" fill="#D4872A">SERVICES</text>
-
-</svg>
-  </h1>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="about.html">About</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
 </header>
 
 <section class="hero">
-  <h2>Reliable IT Services for Businesses</h2>
-  <p>Support, security, cloud solutions, and consultancy — delivered professionally.</p>
-  <a class="btn" href="services.html">View Services</a>
+    <h2>Reliable IT Services for Businesses</h2>
+    <p>Support, security, cloud solutions, and consultancy — delivered professionally.</p>
+    <a class="btn" href="services.html">View Services</a>
 </section>
 
 <footer>
-  <p>© 2026 Exeter IT</p>
+    <p>© 2026 Exeter IT</p>
 </footer>
+
 </body>
 </html>
