@@ -5,7 +5,6 @@
     <title>Exeter IT | Professional IT Services</title>
     <link rel="stylesheet" href="css/style.css">
 
-    <!-- Professional baseline styling -->
     <style>
         body {
             margin: 0;
@@ -19,7 +18,7 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 13px 30px;
+            padding: 14px 32px;
             background: white;
             border-bottom: 1px solid #ddd;
         }
@@ -31,7 +30,7 @@
         }
 
         header svg {
-            height: 80px; /* Reduced from 420px → professional scale */
+            height: 70px;
             width: auto;
         }
 
@@ -47,27 +46,24 @@
             color: #D4872A;
         }
 
-   .hero {
-    text-align: center;
-    padding: 70px 30px;
-    background: #ffffff;
-}
+        /* HERO */
+        .hero {
+            text-align: center;
+            padding: 70px 30px;
+            background: #ffffff;
+        }
 
-.hero h2 {
-    font-size: 2.2rem;
-    margin-bottom: 15px;
-}
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
 
-.hero p {
-    font-size: 1.15rem;
-    max-width: 600px;
-    margin: 0 auto 30px;
-    color: #555;
-}
-
-
-            
-        
+        .hero p {
+            font-size: 1.15rem;
+            max-width: 600px;
+            margin: 0 auto 30px;
+            color: #555;
+        }
 
         .btn {
             display: inline-block;
@@ -84,6 +80,60 @@
             background: #D4872A;
         }
 
+        /* SERVICES PREVIEW */
+        .services-preview {
+            max-width: 1000px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+
+        .services-preview h3 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 25px;
+        }
+
+        .preview-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .preview-card {
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: 600;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            transition: 0.2s;
+        }
+
+        .preview-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+        }
+
+        /* WHY CHOOSE US */
+        .why {
+            max-width: 900px;
+            margin: 70px auto;
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .why h3 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+
+        .why p {
+            font-size: 1.1rem;
+            color: #555;
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
         footer {
             text-align: center;
             padding: 30px;
@@ -97,8 +147,7 @@
 
 <header>
     <h1>
-        <!-- Your original SVG logo (scaled professionally) -->
-        <!-- Source: index.html tab content  -->
+        <!-- Your original SVG logo from the tab -->
         <svg viewBox="0 0 240 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Exeter IT Services logo">
             <rect width="240" height="240" fill="#F5F2EE" />
             <rect x="152" y="144" width="30" height="192" rx="15" fill="#1B2A4A" />
@@ -125,6 +174,25 @@
     <h2>Reliable IT Services for Businesses</h2>
     <p>Support, security, cloud solutions, and consultancy — delivered professionally.</p>
     <a class="btn" href="services.html">View Services</a>
+</section>
+
+<section class="services-preview">
+    <h3>Our Core Services</h3>
+    <div class="preview-grid">
+        <div class="preview-card">Managed IT Support</div>
+        <div class="preview-card">Cyber Security</div>
+        <div class="preview-card">Cloud Solutions</div>
+        <div class="preview-card">Networking</div>
+        <div class="preview-card">Consultancy</div>
+    </div>
+</section>
+
+<section class="why">
+    <h3>Why Choose Exeter IT?</h3>
+    <p>
+        We provide professional IT services backed by experience in support, networking, cloud systems, and security.
+        Our focus is on reliability, clarity, and delivering solutions that help your business stay secure and productive.
+    </p>
 </section>
 
 <footer>
