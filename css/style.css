@@ -15,7 +15,8 @@ header {
 }
 
 nav a {
-  padding: 10px 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: inline-block;
   color: white;
   margin-left: 1em;
