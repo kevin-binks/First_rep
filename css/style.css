@@ -74,3 +74,34 @@ footer {
   padding: 1em;
   margin-top: 2em;
 }
+.about-extra {
+    margin-top: 50px;
+}
+
+.about-extra h3 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: #1B2A4A;
+    text-align: center;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.cert-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.2s;
+}
+
+.cert-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
